@@ -185,7 +185,7 @@ header{
   }
 
   #bg_img{
-    background-image: url("./images/phone-line.webp");
+    background-image: url("../images/phone-line.webp");
     height: 64vh;
     width: 75vw;
     background-repeat: no-repeat !important;
@@ -253,7 +253,7 @@ header{
   }
 
   .footer{
-      background-image:url("./images/footer.png");
+      background-image:url("../images/footer.png");
       padding: 15px;
       background-position: bottom;
       background-size: cover;
@@ -274,9 +274,11 @@ header{
   
   @media (min-width: 600px) and (max-width: 1096px) {
     .disnone{
-        display: none !important;
+        display: none;
+        background-color: transparent !important;
+        text-align: center !important;
     }
-    .spacing {
+    .spacing {  
         padding-top: 0px !important;
     }
     .spacing1{
@@ -301,19 +303,22 @@ header{
 
   @media (min-width: 1097px) and (max-width: 1400px) {
     .disnone{
-        background-color: black !important;
+        display: none;
+        background-color: transparent !important;
+        text-align: center !important;
+    } 
+    
+    img{
+        height: 100%;
+        width: 100%;
     }
   }
   @media only screen and (max-width: 600px) {
-    #bg_img{
-        background: transparent !important;
-        height: 30vh !important;
-        width: 90vw !important;
-        background-repeat: no-repeat !important;
-        background-size: contain;
-        margin: 0 auto;
-        background-position-x: calc(100% + 0px);        
-      }
+    .disnone{
+        display: none;
+        background-color: transparent !important;
+        text-align: center !important;
+    }
     .video{
         height: auto;
         width: 100%;
