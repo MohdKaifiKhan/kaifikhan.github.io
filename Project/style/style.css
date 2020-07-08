@@ -185,7 +185,7 @@ header{
   }
 
   #bg_img{
-    background-image: url("/images/phone-line.webp");
+    background-image: url("./images/phone-line.webp");
     height: 64vh;
     width: 75vw;
     background-repeat: no-repeat !important;
@@ -253,7 +253,7 @@ header{
   }
 
   .footer{
-      background-image:url("/images/footer.png");
+      background-image:url("./images/footer.png");
       padding: 15px;
       background-position: bottom;
       background-size: cover;
