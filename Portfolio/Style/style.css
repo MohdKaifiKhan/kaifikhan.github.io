@@ -9,7 +9,7 @@
 }
 
 body{
-    background: url('../Images/samson.jpg'), linear-gradient(to bottom, #274d64, #1d6282c9);
+    background: url('./Images/samson.jpg'), linear-gradient(to bottom, #274d64, #1d6282c9);
     width: 100%;
     height: 100vh;
     background-blend-mode: overlay;
